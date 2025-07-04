@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amari's Quinceañera</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Canva image -->
+  <img src="images/site.png" alt="Full Canva Website" class="full-image" />
+
+  <!-- Button Group -->
+  <div class="button-group">
+    <button id="open-rsvp-btn">RSVP</button>
+
+    <a href="https://www.dropbox.com/request/IRXQP6XrJQ5UMgN0unox" target="_blank" class="upload-button">
+      Upload Photos Here!
+    </a>
+  </div>
+
+
+  <!-- RSVP Modal -->
+  <div id="rsvp-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-rsvp-btn" class="close">Close</span>
+
+      <form action="https://formspree.io/f/xeokpany" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" required min="1" max="10" />
+
+        <label for="message">Message (optional):</label>
+        <textarea id="message" name="message"></textarea>
+
+        <div class="button-row">
+          <button type="submit">Send RSVP</button>
+          <button type="button" id="close-rsvp-btn-2" class="close">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    const openBtn = document.getElementById('open-rsvp-btn');
+    const modal = document.getElementById('rsvp-modal');
+    const closeBtn = document.getElementById('close-rsvp-btn');
+    const closeBtn2 = document.getElementById('close-rsvp-btn-2');
+
+    openBtn.addEventListener('click', () => {
+      modal.classList.add('show');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.classList.remove('show');
+    });
+
+    closeBtn2.addEventListener('click', () => {
+      modal.classList.remove('show');
+    });
+
+    window.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        modal.classList.remove('show');
+      }
+    });
+  </script>
+
+</body>
+</html>
