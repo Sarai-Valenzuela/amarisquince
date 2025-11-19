@@ -1,7 +1,7 @@
 /* Reset & base styles */
 body {
   margin: 0;
-  background-color: #b0c4de;
+  background-color: #d38c98;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   color: #333;
@@ -145,4 +145,5 @@ img.full-image {
 .modal-content .close:hover {
   background-color: #999;
 }
+
 
