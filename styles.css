@@ -129,12 +129,12 @@ img.full-image {
 
 /* Modal submit and cancel */
 .modal-content button[type="submit"] {
-  background-color: #4271aa;
+  background-color: #ae6673;
   color: white;
 }
 
 .modal-content button[type="submit"]:hover {
-  background-color: #788fad;
+  background-color: #d38c98;
 }
 
 .modal-content .close {
@@ -145,6 +145,7 @@ img.full-image {
 .modal-content .close:hover {
   background-color: #999;
 }
+
 
 
 
