@@ -25,7 +25,7 @@ img.full-image {
 /* RSVP Button */
 #open-rsvp-btn {
   padding: 12px 24px;
-  background-color: #4271aa;
+  background-color: #ae6673;
   color: white;
   border: none;
   border-radius: 8px;
@@ -35,12 +35,12 @@ img.full-image {
 }
 
 #open-rsvp-btn:hover {
-  background-color: #8aacd6;
+  background-color: #f6d5da;
 }
 
 /* Upload Button */
 .upload-button {
-  background-color: #d38c98;
+  background-color: #ae6673;
   color: white;
   padding: 12px 20px;
   text-decoration: none;
@@ -51,7 +51,7 @@ img.full-image {
 }
 
 .upload-button:hover {
-  background-color: #8aacd6;
+  background-color: #f6d5da;
 }
 
 /* Upload invite message */
@@ -145,5 +145,6 @@ img.full-image {
 .modal-content .close:hover {
   background-color: #999;
 }
+
 
 
