@@ -17,7 +17,7 @@ img.full-image {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 50px;
   margin: 30px auto 30px; /* added more bottom space */
 }
 
@@ -145,6 +145,7 @@ img.full-image {
 .modal-content .close:hover {
   background-color: #999;
 }
+
 
 
 
