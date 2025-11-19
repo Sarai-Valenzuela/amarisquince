@@ -40,7 +40,7 @@ img.full-image {
 
 /* Upload Button */
 .upload-button {
-  background-color: #4271aa;
+  background-color: #d38c98;
   color: white;
   padding: 12px 20px;
   text-decoration: none;
@@ -145,3 +145,4 @@ img.full-image {
 .modal-content .close:hover {
   background-color: #999;
 }
+
